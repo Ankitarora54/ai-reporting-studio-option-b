@@ -1,0 +1,1 @@
+{"name":"ai-reporting-studio","private":true,"workspaces":["client","server"],"scripts":{"dev":"concurrently \"npm run dev --workspace client\" \"npm run dev --workspace server\"","build":"npm run build --workspace client"},"devDependencies":{"concurrently":"^9.0.1"}}

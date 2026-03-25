@@ -1,0 +1,1 @@
+import express from 'express'; import { generateCommentary } from '../services/openaiService.js'; const router=express.Router(); router.post('/generate', async (req,res)=>{ const commentary=await generateCommentary(req.body); res.json({commentary}); }); export default router;
